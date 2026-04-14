@@ -1,0 +1,17 @@
+@import "pretendard/dist/web/static/pretendard.css";
+@import "tailwindcss";
+
+@layer base {
+    body {
+        font-family: 'Pretendard', sans-serif;
+    }
+    button {
+        cursor: pointer;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[90rem] mx-auto;
+    }
+}
