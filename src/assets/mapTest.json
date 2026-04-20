@@ -1,0 +1,19 @@
+[
+    {"id": 0, "title": "제3보급창고", "mode": "5vs5", "image": "3rd_supply.png"},
+    {"id": 1, "title": "드래곤로드", "mode": "5vs5", "image": "dragonroad.png"},
+    {"id": 2, "title": "프로방스", "mode": "5vs5", "image": "provence.png"},
+    {"id": 3, "title": "시티캣", "mode": "5vs5", "image": "citycat.png"},
+    {"id": 4, "title": "크로스포트", "mode": "5vs5", "image": "crossport.png"},
+    {"id": 5, "title": "올드타운", "mode": "5vs5", "image": "oldtown.png"},
+    {"id": 6, "title": "데저트2", "mode": "5vs5", "image": "desert2.png"},
+    {"id": 7, "title": "제5보급창고", "mode": "5vs5", "image": "5rd_supply.png"},
+    {"id": 8, "title": "화이트스쿨", "mode": "5vs5", "image": "whiteschool.png"},
+    {"id": 8, "title": "팰리스", "mode": "5vs5", "image": "palace.png"},
+    {"id": 8, "title": "지하철", "mode": "5vs5", "image": "subway.png"},
+    {"id": 8, "title": "이탈리아", "mode": "5vs5", "image": "italy.png"},
+    {"id": 8, "title": "듀오 릭", "mode": "5vs5", "image": "duorick.png"},
+    {"id": 8, "title": "백 어스", "mode": "5vs5", "image": "backearth.png"},
+    {"id": 8, "title": "프로즌시티", "mode": "5vs5", "image": "frozencity.png"},
+    {"id": 8, "title": "아울렛", "mode": "5vs5", "image": "outlet.png"},
+    {"id": 8, "title": "아즈텍", "mode": "5vs5", "image": "aztec.png"}
+]
