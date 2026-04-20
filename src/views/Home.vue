@@ -1,6 +1,6 @@
 <template>
     <main>
-        <section class="hero flex items-center justify-center bg-[url(/src/assets/images/home_bg01.png)] bg-cover min-h-[500px]">
+        <section class="flex items-center justify-center bg-[url(/src/assets/images/home_bg01.png)] bg-cover min-h-[500px]">
             <form action="">
                 <p class="text-[#B2B2C2] mb-[10px]">서든어택 전적검색 및 매치 분석 플랫폼</p>
                 <label for="search" class="relative">
@@ -12,11 +12,27 @@
             </form>
         </section>
         <div class="container">
-            리스트2
+            <section class="mt-25">
+                <RankMapList highlight="5vs5 랭크전" subject="2026 시즌1" :data="maps"/>
+                <RankMapList class="mt-25" highlight="3vs3 랭크전" subject="2026 시즌1" :data="maps"/>
+            </section>
+            <section class="mt-25 flex gap-5">
+                <BoardShort class="flex-1" highlight="서든어택" subject="공지사항" :data="saNoticeData" />
+                <BoardShort class="flex-1" highlight="SuddenInfo" subject="공지사항" :data="siNoticeData" />
+            </section>
         </div>
     </main>
 </template>
 
 <script setup>
     import { Search } from 'lucide-vue-next'
+    import RankMapList from '@/components/RankMapList.vue'
+    import BoardShort from '../components/BoardShort.vue'
+
+    // 테스트용 json
+    import maps from '@/assets/mapTest.json'
+    import notices from '@/assets/boardTest.json'
+
+    const saNoticeData = notices.filter(item => item.type===1)
+    const siNoticeData = notices.filter(item => item.type===2)
 </script>
